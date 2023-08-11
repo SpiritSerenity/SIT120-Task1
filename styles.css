@@ -1,0 +1,165 @@
+/* styles.css */
+
+/* Resetting default margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for images */
+img {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+}
+
+/* Styling for images */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Styling for table cells and rows */
+table td,
+tr {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    Height: 50%;
+}
+
+/* Styling for forms */
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Century Gothic", sans-serif;
+}
+
+/* Styling for labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Century Gothic", sans-serif;
+}
+
+/* Styling for input and textarea elements */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: "Century Gothic", sans-serif;
+}
+
+
+/* Styling for submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Century Gothic", sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(50, 50, 50, 0.7);
+    color: #fff;
+    padding: 20px;
+    margin-bottom: -5px;
+    font-family: "Century Gothic", sans-serif;
+}
+
+/* Title styling */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Century Gothic", sans-serif;
+    margin: 0;
+}
+
+/* Styling for .form-style-2 */
+.form-style-2 {
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: darkgreen;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: "Century Gothic", sans-serif;
+    color: white;
+}
+
+
+/* Styling for submit button within .form-style-2 */
+.form-style-2 input[type="submit"] {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    /* Add more styles as needed */
+}
+
+/* Styling for .form-style-3 */
+.form-style-3 {
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: darkblue;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: "Century Gothic", sans-serif;
+    color: white;
+}
+
+/* Styling for submit button within .form-style-3 */
+.form-style-3 input[type="submit"] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    /* Add more styles as needed */
+}
+
+/* Heading styling */
+h1 {
+    font-family: "Century Gothic", sans-serif;
+}
+
+/* Subheading styling */
+h2 {
+    font-family: "Century Gothic", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Styling for H4 headings */
+h4 {
+    font-size: 20px;
+    font-family: "Century Gothic", sans-serif;
+    color: green;
+}
+
+/* Styling for H5 headings */
+h5 {
+    font-size: 20px;
+    font-family: "Century Gothic", sans-serif;
+    color: blue;
+}
